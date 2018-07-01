@@ -9,7 +9,7 @@ if echo "$s" | grep -q '^\[.*\]'; then
 		  | sed 's/^\[//;s/\].*//')
     s=$(echo "$s" \
 	       | sed 's/.*\][ ]*//')
-    tags="$tags, commited"
+    tags="$tags, committed"
 else
     tags="committed"
 fi
